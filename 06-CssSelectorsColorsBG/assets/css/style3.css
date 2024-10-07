@@ -1,0 +1,10 @@
+.Attachment {
+    background-image: url("../images/image.jpg");
+
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: scroll;
+}
+p {
+    color: rgb(255, 60, 0);
+}

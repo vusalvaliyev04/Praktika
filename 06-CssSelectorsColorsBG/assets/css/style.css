@@ -1,0 +1,109 @@
+/* 1. Element Seçicisi: Bütün <p> elementlərinə stillər tətbiq edir */
+p {
+    color: darkblue;
+}
+
+/* 2. ID Seçicisi: 'title' id-li elementə stillər tətbiq edir */
+#title {
+    font-size: 32px;
+    color: darkgreen;
+}
+
+/* 3. Sinif Seçicisi: 'intro' sinfi olan elementlərə stillər tətbiq edir */
+.intro {
+    font-style: italic;
+}
+
+/* 4. Sinif Seçicisi: 'link' sinfi olan elementlərə stillər tətbiq edir */
+.link {
+    color: orange;
+}
+
+/* 5. Nəsil Seçicisi: <p> daxilində olan <em> elementinə stillər tətbiq edir */
+p em {
+    font-weight: bold;
+    color: blue;
+}
+
+/* 6. Uşaq Seçicisi: Yalnız birbaşa <ul> övladı olan <li> elementlərinə tətbiq olunur */
+ul > li {
+    list-style-type: circle;
+}
+
+/* 7. Qonşu Qardaş Seçicisi: <h1> elementindən dərhal sonra gələn <p> elementini stilləndirir */
+h1 + p {
+    margin-top: 10px;
+    color: purple;
+}
+
+/* 8. Ümumi Qardaş Seçicisi: <h1> elementindən sonra gələn bütün <p> elementlərinə tətbiq olunur */
+h1 ~ p {
+    font-size: 16px;
+}
+
+/* 9. Psevdo-sinif hover: Link üzərində hover edildikdə rəngi dəyişir */
+a:hover {
+    color: darkred;
+}
+
+/* 10. Psevdo-sinif Birinci Uşaq: İlk <li> elementinə tətbiq olunur */
+ul li:first-child {
+    font-weight: bold;
+    color: green;
+}
+
+/* 11. Psevdo-sinif Sonuncu Uşaq: Sonuncu <li> elementinə tətbiq olunur */
+ul li:last-child {
+    color: orange;
+}
+
+/* 12. Psevdo-sinif Cüt: Cüt sıradakı <li> elementlərini stilləndirir */
+ul li:nth-child(even) {
+    background-color: lightgray;
+}
+
+/* 13. Psevdo-sinif Tək: Tək sıradakı <li> elementlərini stilləndirir */
+ul li:nth-child(odd) {
+    background-color: lightblue;
+}
+
+/* 14. Psevdo-element Before: Hər bir <li> elementindən əvvəl mətn əlavə edir */
+li::before {
+    content: "• ";
+    color: darkblue;
+}
+
+/* 15. Psevdo-element After: <a> elementindən sonra ox işarəsi əlavə edir */
+a::after {
+    content: " --";
+}
+
+/* 16. Ümumi Seçici: Bütün elementlərə tətbiq olunur */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 17. Qruplaşdırılmış Seçici: Həm <p>, həm də <li> elementlərinə tətbiq olunur */
+p, li {
+    margin-bottom: 10px;
+}
+
+/* 18. Not Seçicisi: 'special' sinfi olmayan <li> elementlərini stilləndirir */
+li:not(.special) {
+    background-color: lightgreen;
+}
+
+/* 19. Sinif Seçicisi: 'btn' sinfi olan düymələrə stillər tətbiq edir */
+.btn {
+    padding: 10px 20px;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+}
+
+/* 20. Uşaq Seçicisi: 'wrapper' sinfi daxilində olan bütün elementlərə margin tətbiq edir */
+.wrapper > * {
+    margin-bottom: 20px;
+}

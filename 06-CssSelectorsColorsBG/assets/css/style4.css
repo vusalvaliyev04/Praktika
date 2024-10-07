@@ -1,0 +1,11 @@
+.scroll{        
+    background-image: url(../images/tree.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    width: 700px;
+    height: 400px;
+    overflow: auto;
+    border: 1;
+
+}
