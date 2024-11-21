@@ -1,0 +1,39 @@
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.register{
+    width: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(218, 184, 184, 0.56) 0px 22px 70px 4px;
+    background-image: linear-gradient(to right,  rgb(250, 109, 151), orange);
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.submit{
+    width: 100%;
+    margin-top: 20px;
+   
+}
+#password-check {
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    display: none;
+}
+
+#password-check.valid {
+    color: green;
+    display: block;
+}
+
+#password-check.invalid {
+    color: red;
+    display: block;
+}

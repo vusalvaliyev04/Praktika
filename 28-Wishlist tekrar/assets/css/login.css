@@ -1,0 +1,41 @@
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;  
+}
+
+.register {
+    width: 450px;
+    padding: 30px;  
+    border-radius: 10px;
+    box-shadow: rgba(218, 184, 184, 0.56) 0px 22px 70px 4px;
+    background-image: linear-gradient(to right, rgb(203, 45, 203), rgb(7, 30, 134)); 
+    color: white; 
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;  
+    color: white;  
+}
+.submit {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;  
+    background-color: rgb(50, 100, 200);  
+    color: white;  
+    border: none;  
+    border-radius: 5px;  
+    font-size: 16px;  
+    cursor: pointer;  
+    transition: background-color 0.3s ease;  
+}
+.submit:hover {
+    background-color: rgb(30, 80, 150);  
+}
