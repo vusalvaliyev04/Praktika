@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "261b",
+      "name": "Vusal",
+      "surname": "Veliyev",
+      "username": "vusal-vali",
+      "email": "vusalav-123@code.edu.az",
+      "password": "Vusal2003!",
+      "confirmpassword": "Vusal2003!",
+      "isLogin": false
+    },
+    {
+      "id": "3c96",
+      "name": "Xaliq",
+      "surname": "Caferli",
+      "username": "xaliq",
+      "email": "xaliq2006@gmail.com",
+      "password": "Xaliq123!",
+      "confirmpassword": "Xaliq123!",
+      "isLogin": true
+    },
+    {
+      "id": "05e9",
+      "name": "Vusal",
+      "surname": "Veliyev",
+      "username": "vusal-99",
+      "email": "vusal652a50@gmail.com",
+      "password": "Vusal2003!",
+      "confirmpassword": "Vusal2003!",
+      "isLogin": false
+    }
+  ]
+}
